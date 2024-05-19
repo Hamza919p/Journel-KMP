@@ -47,6 +47,8 @@ kotlin {
             implementation(libs.ktor.client.logging)
             implementation(libs.precompose)
             implementation(libs.lifeCycle)
+
+
         }
 
         iosMain.dependencies {
