@@ -19,6 +19,7 @@ precompose = "1.6.0"
 lifeCycleVersion ="2.8.0-beta02"
 composeNavigation = "2.8.0-alpha08"
 serialization = "1.6.3"
+decompose = ""
 
 [libraries]
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
@@ -48,6 +49,7 @@ lifeCycle = { module = "org.jetbrains.androidx.lifecycle:lifecycle-viewmodel-com
 navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "composeNavigation" }
 kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "serialization"}
 
+decompose = { module = "com.arkivanov.decompose:decompose", version.ref = "" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
